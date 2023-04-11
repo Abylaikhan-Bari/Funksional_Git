@@ -1,8 +1,5 @@
-
 def rotate_matrix(matrix):
-    # используем функцию zip() для транспонирования матрицы
     transposed = list(zip(*matrix))
-    # используем функцию reversed() для разворота каждой строки
     rotated = [list(reversed(row)) for row in transposed]
     return rotated
 
@@ -12,4 +9,17 @@ m = [[1, 2, 3],
      [7, 8, 9]]
 
 rotated_m = rotate_matrix(m)
-print(rotated_m)  # [[7, 4, 1], [8, 5, 2], [9, 6, 3]]
+for row in m:
+    for element in row:
+        # Используем функцию str.format() для вывода каждого элемента в ячейке таблицы
+        # Для красоты добавим знаки табуляции между элементами
+        print("{:4d}".format(element), end="\t")
+    print()
+print("\n")
+# Используем двойной цикл for для вывода матрицы в виде таблицы 3x3
+for row in rotated_m:
+    for element in row:
+        # Используем функцию str.format() для вывода каждого элемента в ячейке таблицы
+        # Для красоты добавим знаки табуляции между элементами
+        print("{:4d}".format(element), end="\t")
+    print()  # Переходим на новую строку для вывода следующей строки матрицы
