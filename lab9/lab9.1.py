@@ -8,16 +8,16 @@
 
 
 def count_words(text):
-    """
-    Функция для подсчета количества слов в тексте.
-    """
+
+    #Функция для подсчета количества слов в тексте.
+
     words = text.split()
     return len(words)
 
 def save_resume_to_file(text, filename):
-    """
-    Функция для сохранения текста в файл.
-    """
+
+    #Функция для сохранения текста в файл.
+
     with open(filename, 'w') as file:
         file.write(text)
 
