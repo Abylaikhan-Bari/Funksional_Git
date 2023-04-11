@@ -22,7 +22,7 @@ def calculate_delivery_cost(street, price):
 
 
 street = "Толе Би"
-price = 7100
+price = 11000
 
 delivery_cost = calculate_delivery_cost(street, price)
 print(f"Стоимость доставки для улицы {street} и товара стоимостью {price} тг: {delivery_cost} тг")
