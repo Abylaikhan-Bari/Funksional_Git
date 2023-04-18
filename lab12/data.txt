@@ -1,0 +1,15 @@
+Almaty  120
+Astana  85
+Shymkent  75
+Karaganda  92
+Aktobe  50
+Taraz  60
+Ust-Kamenogorsk  45
+Pavlodar  55
+Semei  65
+Kostanay  40
+Kyzylorda  30
+Atyrau  20
+Petropavlovsk  35
+Aktau  25
+Kokshetau  15
